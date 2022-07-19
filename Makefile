@@ -8,6 +8,7 @@ add_nbo: add_nbo.o
 add_nbo.o: add_nbo.cpp
 
 
-clear:
+clean:
+	rm -f add_nbo
 	rm -f *.o
 
